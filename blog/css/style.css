@@ -1,7 +1,32 @@
+body {
+  margin: 0;
+}
+header h1 {
+  font-weight: lighter;
+}
 nav {
   list-style: none;
   display: flex;
+  background-color: #333;
+  color: #fff;
+  height: 40px;
 }
 nav li {
-  margin-right: 50px;  
+  margin-right: 50px;
+}
+.imgSec {
+  display: flex;
+  position: relative;
+  top: 100px;
+}
+.imgSec p {
+  width: 300px;
+}
+.seaImg {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+p.moreText {
+  text-align: center;
+  text-decoration: underline;
 }
