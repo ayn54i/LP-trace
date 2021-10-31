@@ -9,9 +9,25 @@ body {
 }
 
 /* header */
-
+#header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
 .siteTitle h1 {
   font-size: 17px;
+}
+.wrapper {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 #navi {
   position: fixed;
@@ -37,6 +53,7 @@ body {
   width: 30px;
   height: 30px;
   position: relative;
+  left: 0px;
   transition: all 0.5s;
   z-index: 20;
   padding: 0px;
