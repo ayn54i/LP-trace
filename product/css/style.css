@@ -76,9 +76,16 @@ body {
 }
 
 /* main */
-
+.productList  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .productList img {
   width: 300px;
-  height: 300px;
+  height: 330px;
   margin-bottom: 10px;
+}
+.productList li {
+  list-style: none;
 }
