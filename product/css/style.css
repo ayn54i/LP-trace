@@ -96,6 +96,7 @@ h1.pageTitle {
   width: 290px;
   height: 290px;
   margin-bottom: 10px;
+  vertical-align: top;
 }
 ul.productList {
   padding: 0;
@@ -158,4 +159,15 @@ a {
   margin: 0;
   font-size: 0.5rem;
   color: #333;
+}
+
+/* about */
+#about {
+  max-width: 600px;
+}
+#about p {
+  font-size: 0.875rem;
+  font-weight: lighter;
+  line-height: 1.9;
+  margin-bottom: 30px;
 }
