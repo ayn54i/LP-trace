@@ -75,7 +75,7 @@ body {
   border-radius: 4px;
   transition: all 0.5s;
 }
-
+/* products1/2 */
 /* main */
 .content {
   padding-top: 120px;
@@ -130,7 +130,14 @@ a {
 .paginetion a {
   color: #333;
 }
-
+.linkText {
+  display: block;
+  text-align: center;
+  color: #333;
+}
+a.linkText {
+  font-size: 14px;
+}
 /* footer */
 #footer {
   display: flex;
